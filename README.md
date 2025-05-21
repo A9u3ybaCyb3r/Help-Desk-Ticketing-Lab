@@ -1,9 +1,3 @@
-Your write-up is **very well-structured, professional, and resume-ready**—but I’ll suggest a few **refinements** to improve clarity, polish the tone, and directly tie the lab to your learning outcomes and resume impact.
-
-Here’s an **enhanced version** that aligns with your goal of showing what you built, why you built it, and what you gained:
-
----
-
 # 🎫 Help Desk Ticketing Lab
 
 ## 🗂️ Table of Contents
