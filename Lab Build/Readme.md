@@ -16,11 +16,14 @@ _A beginner-friendly setup guide for your first Linux virtual machine_
 👉 Head to the official website:  
 🔗 [Ubuntu Download Page](https://ubuntu.com/download/desktop)
 
+
 ### Choose the Version:
 
 - ✅ Select **Ubuntu 24.04 LTS (Long Term Support)**  
     ⏳ _Get 5 years of security & software updates!_
-![[Pasted image 20250522142023.png]]
+
+![image](https://github.com/user-attachments/assets/ce589cd0-4f47-4a3c-93ab-64770ace74fd)
+
 1. Click **Download Ubuntu Desktop**
 2. Ignore the newsletter prompt, and the ISO download will begin automatically
 3. Save the `.iso` file to your **Desktop** or a preferred folder
@@ -36,20 +39,25 @@ Download & install [VirtualBox](https://www.virtualbox.org/) if you haven’t al
 ### Steps in VirtualBox:
 
 1. 🔧 Click **Machine > New**
-![[Pasted image 20250522142106.png]]
+
+![image](https://github.com/user-attachments/assets/420ca717-101d-47d5-95f5-deb8d8a33625)
+
 2. 🧾 Name your VM (e.g., `Ubuntu-PhD`)
 3. 📂 Choose a folder for your VM files (optional)
 4. 🗂️ Select **"Other"** to browse and choose the Ubuntu ISO you downloaded
 5. 🧪 **Uncheck "Skip Unattended Installation"**  
     → This lets you walk through the manual install steps
-![[Pasted image 20250522142133.png]]
+
+![image](https://github.com/user-attachments/assets/3e658fa4-b8fb-4a68-8978-3338c48ded33)
 
 ---
 
 ## 🧠 3. Allocate System Resources
 
 Make sure your host system has enough resources!  
-![[Pasted image 20250522142218.png]]
+
+![image](https://github.com/user-attachments/assets/867f916d-124a-47cb-b7d0-03029cd8dbc9)
+
 Set these according to your PC’s specs:
 
 - 🧠 **RAM**:
@@ -66,7 +74,9 @@ Set these according to your PC’s specs:
 ---
 
 ## 💽 4. Create Virtual Hard Disk
-![[Pasted image 20250522143245.png]]
+
+![image](https://github.com/user-attachments/assets/525577e6-74b1-4932-bc9d-6581b3a0d506)
+
 - Minimum: **25 GB**
 - Recommended: **50 GB**
 
@@ -81,9 +91,9 @@ Now your VM is created, but it’s still powered off.
 1. ⚡ Click **Start** in VirtualBox
 2. 📺 Wait a few moments while it boots
 3. 🖱️ Choose **Try or Install Ubuntu**
-4. Click **Install Ubuntu**
-![[Pasted image 20250522143314.png]]
-![[Pasted image 20250522143346.png]]
+4. Click **Install Ubuntu** if it prompts you to.
+
+![image](https://github.com/user-attachments/assets/219ac249-1915-4fcf-a3d2-4dfb0d2ef806)
 
 ---
 
@@ -92,7 +102,9 @@ Now your VM is created, but it’s still powered off.
 ### 🧭 Setup Steps:
 
 - 🌐 Language: Select **English** or your preferred language
-![[Pasted image 20250522143404.png]]
+
+![image](https://github.com/user-attachments/assets/40b4a4e4-e630-4a6b-ac58-3d2b0a3c8371)
+
 - 🖥️ Keyboard: Default is **English (US)**
 ![[Pasted image 20250522143426.png]]
 - 🌐 Internet: Choose **Wired Connection** (even if you're on Wi-Fi)
