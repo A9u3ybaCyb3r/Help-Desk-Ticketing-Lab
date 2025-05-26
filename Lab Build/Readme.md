@@ -106,17 +106,28 @@ Now your VM is created, but it’s still powered off.
 ![image](https://github.com/user-attachments/assets/40b4a4e4-e630-4a6b-ac58-3d2b0a3c8371)
 
 - 🖥️ Keyboard: Default is **English (US)**
-![[Pasted image 20250522143426.png]]
+
+![image](https://github.com/user-attachments/assets/c90017ea-03d6-4d30-bdf9-67f48a186079)
+
 - 🌐 Internet: Choose **Wired Connection** (even if you're on Wi-Fi)
-![[Pasted image 20250522143817.png]]
+
+![image](https://github.com/user-attachments/assets/10c150ef-4782-4262-928a-904ab6d2e837)
+
 - 💻 Installation Type: **Normal Installation**
-![[Pasted image 20250522144301.png]]
-![[Pasted image 20250522144313.png]]
-![[Pasted image 20250522144326.png]]
+
+![image](https://github.com/user-attachments/assets/04270b6c-9c52-4290-ab30-8d001e49f64c)
+
+![image](https://github.com/user-attachments/assets/149bac0b-6739-4d01-b6f8-04065dfb8a02)
+
+![image](https://github.com/user-attachments/assets/efad9cf2-c57a-4b8f-a365-d184fb1947ee)
+
 - 📦 Select **Install third-party software** for drivers
-![[Pasted image 20250522144400.png]]
+
+![image](https://github.com/user-attachments/assets/48c20caa-64cf-4c20-9616-70eaf5987555)
+
 - 📀 Storage: Choose **Erase Disk and Install Ubuntu** (safe for VM)
-![[Pasted image 20250522144411.png]]
+
+![image](https://github.com/user-attachments/assets/fb6c3608-46d8-4c10-8cd0-9049152c06f6)
 
 ---
 
@@ -128,25 +139,39 @@ Fill in your details:
 - **Computer Name**: e.g., Andrew-Ubuntu-PhD
 - **Username**: your preferred username
 - **Password**: choose one (e.g., `password` for easy recall—but use something secure in real life!)
-![[Pasted image 20250522144431.png]]
+
+![image](https://github.com/user-attachments/assets/27f1af51-5a12-4405-8f1b-6db643e3a8b6)
 
 🕒 Choose your **time zone**  
-![[Pasted image 20250522144446.png]]
+
+![image](https://github.com/user-attachments/assets/54e8847b-e64f-4185-8070-8e6f69d106b6)
+
 🔁 Click **Install** and let it complete (this will take a few minutes)
-![[Pasted image 20250522144504.png]]
+
+![image](https://github.com/user-attachments/assets/900d9e54-87a6-48ac-9356-16277734d1d0)
 
 ---
 
 ## 🔄 8. Restart and Finalize Setup
 
 1. 🌀 Click **Restart Now**
-![[Pasted image 20250522144948.png]]
+
+![image](https://github.com/user-attachments/assets/099b3c69-300c-4897-9d57-4686971d076f)
+
 2. 🔐 Log in using your password
-![[Pasted image 20250522145001.png]]
+
+![image](https://github.com/user-attachments/assets/e6f28dd0-5906-4b09-8412-2a5a53ae5e85)
+
 3. 🧹 Skip the **Ubuntu Pro** subscription
-![[Pasted image 20250522145032.png]]
+
+![image](https://github.com/user-attachments/assets/9af28543-fc9f-4334-9548-f73be41ef19e)
+
+![image](https://github.com/user-attachments/assets/348baeb0-7877-4e70-b6a0-1831e873d249)
+
 4. 📊 Select **Don’t share system data**
-![[Pasted image 20250522145017.png]]
+
+![image](https://github.com/user-attachments/assets/35d368bb-db4f-45a3-8350-0d25324fe7e4)
+
 5. ✅ Click **Finish**
 
 🎉 Congrats! Your Ubuntu virtual machine is ready to use!
@@ -154,10 +179,6 @@ Fill in your details:
 ---
 
 # 🧰 Ubuntu VM Post-Install Setup & UI Walkthrough
-
-_A practical guide to setting up your Ubuntu Desktop VM in VirtualBox_
-
----
 
 ## 📸 Step 1: Take a Snapshot (Highly Recommended)
 
