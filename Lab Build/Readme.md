@@ -255,3 +255,9 @@ Click the top-right status bar to:
 - ⚙️ Access system settings
 
 ⚠️ Some UI pop-ups are from **VirtualBox**, not Ubuntu itself.
+
+---
+
+## 🎉 You’re Ready to Explore Ubuntu!
+
+This wraps up your **initial setup** and **desktop UI overview** for Ubuntu. Next, we are going to install Docker and Peppermint.
