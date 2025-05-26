@@ -15,7 +15,6 @@ In this guide, you'll step into the shoes of a **help desk technician**, working
 * [♻️ Step 4: Escalate & Reassign the Ticket](#-step-4-escalate--reassign-the-ticket)
 * [🚦 Step 5: Update Ticket Priority & Status](#-step-5-update-ticket-priority--status)
 * [✅ Step 6: Resolve and Close the Ticket](#-step-6-resolve-and-close-the-ticket)
-* [💡 Bonus: Practice Scenarios](#-bonus-practice-scenarios)
 * [🧠 Key Takeaways](#-key-takeaways)
 * [⚠️ Peppermint Ticket Interrupt Lab: Layered Troubleshooting & Escalation](#-peppermint-ticket-interrupt-lab-layered-troubleshooting--escalation)
 
@@ -143,23 +142,6 @@ Resolved issue: unplugged router was reconnected. Connectivity restored.
 
 2. Click **Comment ➤**
 3. Click **Close Issue**
-
----
-
-## 💡 Bonus: Practice Scenarios
-
-Try creating other tickets:
-
-* "Computer won’t turn on"
-* "VPN access request"
-* "Printer not responding"
-
-Practice:
-
-* Ticket creation
-* Assignment
-* Tagging & priority
-* Closing with documentation
 
 ---
 
