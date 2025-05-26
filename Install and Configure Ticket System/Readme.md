@@ -157,13 +157,6 @@ sudo docker compose down && sudo docker compose up -d
 
 ---
 
-## 🌟 Step 7: Show Some Love
-
-Support open-source tools like Peppermint by starring the GitHub repo:
-👉 [https://github.com/Peppermint-Lab/peppermint](https://github.com/Peppermint-Lab/peppermint)
-
----
-
 ## 🧼 Optional Docker Tips
 
 * View running containers:
