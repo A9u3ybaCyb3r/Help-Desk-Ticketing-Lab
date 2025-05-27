@@ -1,4 +1,3 @@
-
 # 🎟️ Peppermint Help Desk User Guide: Ticket Creation, Assignment & Resolution
 
 Welcome to Part 3 of the Peppermint ticketing lab! 🚀
