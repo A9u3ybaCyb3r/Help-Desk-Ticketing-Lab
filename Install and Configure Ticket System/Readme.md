@@ -1,28 +1,33 @@
-# 🐳 Peppermint Ticketing System – Dockerized Help Desk Setup on Ubuntu
+## 📚 Table of Contents
 
-Welcome to your all-in-one guide to **deploying and configuring Peppermint**, an open-source ticketing system, using Docker on Ubuntu. Perfect for practicing real-world IT and DevOps workflows! 🧊
+### 🐳 Peppermint Docker Deployment
+
+1. [🧰 Requirements](#-requirements)
+2. [📦 Step 1: Install Docker + Docker Compose](#-step-1-install-docker--docker-compose)
+3. [🍃 Step 2: Prepare for Peppermint Installation](#-step-2-prepare-for-peppermint-installation)
+4. [🧾 Step 3: Create the Docker Compose File](#-step-3-create-the-docker-compose-file)
+5. [🚀 Step 4: Deploy Peppermint with Docker Compose](#-step-4-deploy-peppermint-with-docker-compose)
+6. [🌐 Step 5: Access the Web Interface](#-step-5-access-the-web-interface)
+7. [🛑 Step 6: Shut Down the App](#-step-6-shut-down-the-app)
+8. [🧼 Optional Docker Tips](#-optional-docker-tips)
 
 ---
 
-## 📚 Table of Contents
+### 🛠️ Peppermint Configuration Guide (Admin Setup & Client Creation)
 
-* [🧰 Requirements](#-requirements)
-* [📦 Step 1: Install Docker + Docker Compose](#-step-1-install-docker--docker-compose)
-* [🍃 Step 2: Prepare for Peppermint Installation](#-step-2-prepare-for-peppermint-installation)
-* [🧾 Step 3: Create the Docker Compose File](#-step-3-create-the-docker-compose-file)
-* [🚀 Step 4: Deploy Peppermint with Docker Compose](#-step-4-deploy-peppermint-with-docker-compose)
-* [🌐 Step 5: Access the Web Interface](#-step-5-access-the-web-interface)
-* [🛑 Step 6: Shut Down the App](#-step-6-shut-down-the-app)
-* [🧼 Optional Docker Tips](#-optional-docker-tips)
-* [🛠️ Peppermint Configuration Guide (Admin Setup & Client Creation)](#️-peppermint-configuration-guide-admin-setup--client-creation)
+9. [🔁 Relaunch Peppermint (if needed)](#-relaunch-peppermint-if-needed)
+10. [🔐 Step 1: Login as Admin](#-step-1-login-as-admin)
+11. [👥 Step 2: Add Users](#-step-2-add-users)
+12. [👤 Step 3: Add Clients](#-step-3-add-clients)
+13. [🌐 Step 4: Explore Portals](#-step-4-explore-portals)
+14. [🧠 Step 5: Advanced Admin Features](#-step-5-advanced-admin-features)
+15. [📤 Step 6: Graceful Shutdown](#-step-6-graceful-shutdown)
 
-  * [🔁 Relaunch Peppermint (if needed)](#-relaunch-peppermint-if-needed)
-  * [🔐 Step 1: Login as Admin](#-step-1-login-as-admin)
-  * [👥 Step 2: Add Users](#-step-2-add-users)
-  * [👤 Step 3: Add Clients](#-step-3-add-clients)
-  * [🌐 Step 4: Explore Portals](#-step-4-explore-portals)
-  * [🧠 Step 5: Advanced Admin Features](#-step-5-advanced-admin-features)
-  * [📤 Step 6: Graceful Shutdown](#-step-6-graceful-shutdown)
+---
+
+# 🐳 Peppermint Docker Deployment
+
+Welcome to your all-in-one guide to **deploying and configuring Peppermint**, an open-source ticketing system, using Docker on Ubuntu. Perfect for practicing real-world IT and DevOps workflows! 🧊
 
 ---
 
