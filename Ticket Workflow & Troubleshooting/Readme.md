@@ -146,6 +146,8 @@ Escalating ticket to Tier 2 – Jin Yang for further investigation.
 
 ![image](https://github.com/user-attachments/assets/46aa3662-cfb7-4262-9fb7-78f3cb9b2bac)
 
+✅ We have successfully escalated the ticket.
+
 ---
 
 ## 🧠 Why This Matters
