@@ -15,7 +15,7 @@ In this guide, you'll step into the shoes of a **help desk technician**, working
   * [🧾 Comment 1: Network Info](#-comment-1-network-info)
   * [🧪 Comment 2: Troubleshooting Steps (OSI Layers 1–3)](#-comment-2-troubleshooting-steps-osi-layers-13)
   * [🔁 Comment 3: Escalation Note](#-comment-3-escalation-note)
-* [🔁 Step 4: Escalate the Ticket](#-step-4-escalate-the-ticket)
+* [🔁 Step 3: Escalate the Ticket](#-step-3-escalate-the-ticket)
 * [🧠 Why This Matters](#-why-this-matters)
 * [🎉 Success!](#-success)
 
@@ -136,7 +136,7 @@ Escalating ticket to Tier 2 – Jin Yang for further investigation.
 
 ---
 
-## 🔁 Step 4: Escalate the Ticket
+## 🔁 Step 3: Escalate the Ticket
 
 1. Reassign the ticket to **Jin Yang**
 2. Set **Priority** to `High`
