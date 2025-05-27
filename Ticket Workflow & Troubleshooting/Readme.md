@@ -11,20 +11,13 @@ In this guide, you'll step into the shoes of a **help desk technician**, working
 * [🔐 Step 0: Log in as a Regular User](#-step-0-log-in-as-a-regular-user)
 * [🆕 Step 1: Create a New Ticket](#-step-1-create-a-new-ticket)
 * [💬 Step 2: Add Comments to a Ticket](#-step-2-add-comments-to-a-ticket)
-* [🌐 Step 3: Create Another Ticket with Escalation](#-step-3-create-another-ticket-with-escalation)
-* [♻️ Step 4: Escalate & Reassign the Ticket](#-step-4-escalate--reassign-the-ticket)
-* [🚦 Step 5: Update Ticket Priority & Status](#-step-5-update-ticket-priority--status)
-* [✅ Step 6: Resolve and Close the Ticket](#-step-6-resolve-and-close-the-ticket)
-* [🧠 Key Takeaways](#-key-takeaways)
-* [⚠️ Peppermint Ticket Interrupt Lab: Layered Troubleshooting & Escalation](#-peppermint-ticket-interrupt-lab-layered-troubleshooting--escalation)
 
-  * [🔧 Scenario Summary](#-scenario-summary)
-  * [🔍 Diagnostic Questions](#-diagnostic-questions)
-  * [🔧 Layer 1–3 Troubleshooting](#-layer-13-troubleshooting)
-  * [📋 Internal Comment Example](#-internal-comment-example)
-  * [♻️ Reassign the Ticket](#-reassign-the-ticket)
-  * [🧠 Why This Matters](#-why-this-matters)
-  * [🎉 Success!](#-success)
+  * [🧾 Comment 1: Network Info](#-comment-1-network-info)
+  * [🧪 Comment 2: Troubleshooting Steps (OSI Layers 1–3)](#-comment-2-troubleshooting-steps-osi-layers-13)
+  * [🔁 Comment 3: Escalation Note](#-comment-3-escalation-note)
+* [🔁 Step 4: Escalate the Ticket](#-step-4-escalate-the-ticket)
+* [🧠 Why This Matters](#-why-this-matters)
+* [🎉 Success!](#-success)
 
 ---
 
