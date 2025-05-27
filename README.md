@@ -45,8 +45,3 @@ The lab was designed to develop practical skills aligned with roles in **Help De
 * 🖥️ **Terminal/Shell** – command-line setup and configuration
 * 🌐 **Web Interface** – user-side ticket management and interaction
 
----
-
-## ⚠️ Disclaimer
-
-This lab was developed for **educational purposes** and should be executed in a **virtualized or isolated lab environment** to prevent unintended impacts on production systems.
