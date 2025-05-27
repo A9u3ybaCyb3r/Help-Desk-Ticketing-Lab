@@ -1,15 +1,5 @@
 # 🎫 Help Desk Ticketing Lab
 
-## 🗂️ Table of Contents
-
-* [Overview](#overview)
-* [Lab Objectives](#lab-objectives)
-* [Skills Learned](#skills-learned)
-* [Tools Used](#tools-used)
-* [Disclaimer](#disclaimer)
-
----
-
 ## 📘 Overview
 
 This self-guided lab simulates a real-world **IT Help Desk environment** by deploying and managing a **ticketing system** using **Peppermint** (an open-source platform). The project emphasizes the importance of ticketing workflows in professional IT support roles and provides hands-on experience with key tasks such as ticket creation, triage, and escalation.
