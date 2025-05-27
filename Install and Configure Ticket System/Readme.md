@@ -299,5 +299,10 @@ You’ve now completed:
 - 🙋 Client setup
 - 🛠️ Admin feature overview
 
-In the next step, you'll **log in as a regular user**, learn to **create, escalate, and resolve tickets** — just like a real help desk agent! 🧑‍💻
+In the next step, you’ll simulate a **realistic ticket escalation scenario**. You’ll:
+
+- 📝 Create a ticket for a client call
+- 🧠 Record detailed troubleshooting notes
+- 🛠️ Work up to **Layer 3** of the OSI Model
+- 🔁 Escalate the issue to another technician
 
