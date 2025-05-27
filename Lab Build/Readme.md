@@ -1,7 +1,27 @@
-# 📚 Table of Contents
-1. [Download Ubuntu ISO](#-1-download-ubuntu-iso)
-2. [Open VirtualBox and Create a New VM](#-2-open-virtualbox-and-create-a-new-vm)
-3. [Allocate System Resources](#-3-allocate-system-resources)
+## 📚 Table of Contents
+
+### 🧰 Ubuntu Installation Guide
+
+1. [📥 Download Ubuntu ISO](#-1-download-ubuntu-iso)
+2. [🖥️ Open VirtualBox and Create a New VM](#-2-open-virtualbox-and-create-a-new-vm)
+3. [🧠 Allocate System Resources](#-3-allocate-system-resources)
+4. [💽 Create Virtual Hard Disk](#-4-create-virtual-hard-disk)
+5. [🚀 Start the Installation](#-5-start-the-installation)
+6. [🛠️ Walk Through Ubuntu Installer](#-6-walk-through-ubuntu-installer)
+7. [👤 User Setup](#-7-user-setup)
+8. [🔄 Restart and Finalize Setup](#-8-restart-and-finalize-setup)
+
+---
+
+### 🧰 Ubuntu VM Post-Install Setup & UI Walkthrough
+
+9. [📸 Step 1: Take a Snapshot (Highly Recommended)](#-step-1-take-a-snapshot-highly-recommended)
+10. [💡 Why Snapshots Matter](#-why-snapshots-matter)
+11. [👤 Step 2: Log In & Access the Ubuntu Desktop](#-step-2-log-in--access-the-ubuntu-desktop)
+12. [🧭 Step 3: Open the App Menu](#-step-3-open-the-app-menu)
+13. [🖥️ Step 4: Adjust Display Settings](#-step-4-adjust-display-settings)
+14. [🖼️ Step 5: Full-Screen Mode in VirtualBox](#-step-5-full-screen-mode-in-virtualbox)
+15. [🎉 You’re Ready to Explore Ubuntu!](#-youre-ready-to-explore-ubuntu)
 
 ---
 
