@@ -49,9 +49,17 @@ sudo apt-get remove docker docker-engine docker.io containerd runc
 
 Follow the steps in the official guide to add the GPG key and set up the Docker APT repo.
 
+### 🧾 Set Up the Repository
+
+![image](https://github.com/user-attachments/assets/1fb28edc-b2fa-437a-bfaa-904daba0e19a)
+
+![image](https://github.com/user-attachments/assets/1fe583e3-3897-4e01-ae35-f60a94aec136)
+
 ### 📥 Install Docker Engine + Compose
 
 Once the repository is ready:
+
+![image](https://github.com/user-attachments/assets/9ce30126-a5af-494b-b3d9-a7f6bf61ddd4)
 
 ```bash
 sudo apt-get update
@@ -59,6 +67,8 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 
 ### ✅ Test Docker Installation
+
+![image](https://github.com/user-attachments/assets/bb92c0c6-ac36-4f5d-8532-fab90e00c7b4)
 
 ```bash
 sudo docker run hello-world
