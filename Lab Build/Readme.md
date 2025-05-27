@@ -188,14 +188,18 @@ Before making any major changes to your VM:
 
 1. In VirtualBox:  
     **Machine → Take Snapshot**
-![[Pasted image 20250522145636.png]]
+
+![image](https://github.com/user-attachments/assets/ffc006e5-9a52-41b4-ae99-945e352c84ed)
+
 2. Name it something like:
 ```
 Fresh Installation
 ```
-![[Pasted image 20250522145708.png]]
+
 3. (Optional) Add a description like:
     > “Just installed Ubuntu. No changes made yet.”
+
+![image](https://github.com/user-attachments/assets/4ef67a50-4ddd-4d0b-98e8-3600fb6f6af2)
 
 ✅ Snapshots help you **roll back** quickly if you break something.
 
@@ -221,7 +225,9 @@ Once logged in, you'll see the **GNOME Desktop Environment**. GNOME is:
 ## 🧭 Step 3: Open the App Menu
 
 Click the **Ubuntu logo** in the bottom-left corner (similar to the Windows Start menu):
-![[Pasted image 20250522145912.png]]
+
+![image](https://github.com/user-attachments/assets/6e330fe7-03d4-4d88-ae0d-5a0e84d8bd99)
+
 ### From here, you can:
 
 - 🔍 Search for and open applications
@@ -237,11 +243,15 @@ To make the display more usable:
 ### Change Screen Resolution:
 
 1. Go to **Settings**
+
+![image](https://github.com/user-attachments/assets/be897b64-6613-4e61-8fdd-46c1bd31aebe)
+
 2. Navigate to **Display**
 3. Set resolution to `1920x1080` (or match your monitor)
 4. Keep **Scale** at `100%`
 5. Click **Apply** and confirm the changes
-![[Pasted image 20250522153521.png]]
+
+![image](https://github.com/user-attachments/assets/031e7ae8-4609-467d-bf73-d235f077b8ef)
 
 ---
 
@@ -253,41 +263,12 @@ Want your VM to feel like a native OS?
 
 1. Go to **View → Full-Screen Mode**
 2. Or press `Right Ctrl + F` (default Host Key + F)
-![[Pasted image 20250522153607.png]]
+
+![image](https://github.com/user-attachments/assets/b753137f-2bcc-40c5-be2b-afb296138984)
+
 🔁 To exit full-screen mode: press the **same keys again**
 
 📌 You may need to install **VirtualBox Guest Additions** to optimize display resizing.
-
----
-
-## 🗂️ Step 6: Explore the Desktop UI
-
-### 📂 File Explorer (Left Sidebar)
-![[Pasted image 20250522153646.png]]
-- Works like Windows File Explorer
-- Lets you browse files and folders in your Linux file system
-
-### 🛒 Ubuntu Software Center
-![[Pasted image 20250522153730.png]]
-- Install apps easily like:
-    
-    - 🗓️ Calendar
-    - 🖌️ Paint apps
-    - 🎮 Games
-
-(You’ll learn more about app installations in a later lesson.)
-
----
-
-## 🔧 Step 7: System Menu (Top-Right Corner)
-
-Click the top-right status bar to:
-![[Pasted image 20250522153746.png]]
-- 🌐 Manage network settings (usually set to Wired via NAT)
-- 🔒 Lock or power off the VM
-- ⚙️ Access system settings
-
-⚠️ Some UI pop-ups are from **VirtualBox**, not Ubuntu itself.
 
 ---
 
