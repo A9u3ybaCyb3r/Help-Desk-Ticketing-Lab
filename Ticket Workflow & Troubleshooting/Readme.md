@@ -1,3 +1,4 @@
+
 # 🎟️ Peppermint Help Desk User Guide: Ticket Creation, Assignment & Resolution
 
 Welcome to Part 3 of the Peppermint ticketing lab! 🚀
@@ -37,6 +38,9 @@ http://localhost:3000
 ```
 
 2. Click **Logout** from the admin account if you're still logged in.
+
+![image](https://github.com/user-attachments/assets/2a0d1ead-7c76-404f-85be-6d1c4997b193)
+
 3. Sign in with a non-admin user (like Jared):
 
    * **Email:** `jared@jared.com`
@@ -47,6 +51,9 @@ http://localhost:3000
 ## 🆕 Step 1: Create a New Ticket
 
 1. On the left sidebar, click **Create Ticket ➕**
+
+![image](https://github.com/user-attachments/assets/d323ccfe-b9ba-49fb-a847-a3b421b04c03)
+
 2. Fill out the form:
 
 | Field       | Value                                                      |
@@ -57,8 +64,12 @@ http://localhost:3000
 | Engineer    | Jared (yourself)                                           |
 | Type        | Feature Request                                            |
 
+![image](https://github.com/user-attachments/assets/0707e799-be9b-4734-858c-2e459c4f7180)
+
 3. Click **Create Ticket ✅**
 4. Navigate to **Jared's Open Tickets** to view it.
+
+![image](https://github.com/user-attachments/assets/4dcc00d8-0ad6-4a82-9cf1-b2218047395d)
 
 ---
 
@@ -68,181 +79,100 @@ http://localhost:3000
 2. Scroll to the **Comments** section.
 3. Add a comment like:
 
-```
-Remoted into Monica’s PC and installed Outlook. Closing ticket.
-```
+### 🧾 Comment 1: Network Info
 
-4. Mark as **Public** or leave **Internal**
-5. Click **Comment ➤**
-6. Click **Close Issue ⏑**
-
-✅ This moves the ticket to **Closed Tickets**.
-
----
-
-## 🌐 Step 3: Create Another Ticket with Escalation
-
-1. Go to **Create Ticket ➕**
-2. Example:
-
-| Field       | Value                      |
-| ----------- | -------------------------- |
-| Title       | Network Connectivity Issue |
-| Description | Users reporting outage     |
-| Client      | Gavin                      |
-| Engineer    | Jared                      |
-| Type        | Incident                   |
-
-3. Click **Create Ticket**
-
----
-
-## ♻️ Step 4: Escalate & Reassign the Ticket
-
-1. Go to **Jared’s Open Tickets** and open the network ticket.
-2. Add an internal comment:
+> 📄 _Internal Note_
 
 ```
-Received call from Gavin reporting a network outage. Escalating to Network Engineer.
+Additional details from Monica's setup:
+1. Monica is connected via Ethernet
+2. Subnet: 10.0.0.0/24
+3. Gateway: 10.0.0.1
 ```
 
-3. Click **Comment ➤**
-4. Click the **Reassign** icon and assign to **Jin Yang**
+![image](https://github.com/user-attachments/assets/4049c20e-5e40-46ba-9797-683f604d45e1)
+
+✅ Click **Comment** (internal only)
 
 ---
 
-## 🚦 Step 5: Update Ticket Priority & Status
+### 🧪 Comment 2: Troubleshooting Steps (OSI Layers 1–3)
 
-As **Jin Yang**:
+> 🧰 _Internal Note – Layered Troubleshooting_
 
-* Login: `jinyang@jinyang.com` | Password: `jinyang`
-* Go to **Open Tickets** and open the reassigned one
+---
+```
+Troubleshooting steps performed.
+Layer 1:
+- Monica verified her Ethernet cable was plugged in, no visible damage
+- Link light on NIC is active
 
-### 📃 Update Priority:
+Layer 2:
+- Data light flashing on NIC
+- Ran `arp -a`, confirmed presence of other devices and MAC address for gateway
 
-* Click the **priority** label (e.g., Normal)
-* Set to **High**
+Layer 3:
+- Successfully pinged 10.0.0.1 (gateway)
+- Unable to ping www.google.com
+- Ran the following:
+    - ipconfig /release
+    - ipconfig /flushdns
+    - ipconfig /renew
+    - ipconfig /registerdns
+- Still no connectivity
+- Trace route stops at the gateway
+```
 
-### 🏷️ Update Status:
+![image](https://github.com/user-attachments/assets/d1567644-b148-46ba-8443-06aa6980e70b)
 
-* Change from **Need Support** → **In Progress**
-* Then, change to **Done**
+✅ Click **Comment** (internal only)
 
 ---
 
-## ✅ Step 6: Resolve and Close the Ticket
+### 🔁 Comment 3: Escalation Note
 
-As **Jin Yang**:
-
-1. Add comment:
+> 🧪 _Internal Note – Escalation_
 
 ```
-Resolved issue: unplugged router was reconnected. Connectivity restored.
+Reached end of Help Desk Layer 3 support scope.
+Escalating ticket to Tier 2 – Jin Yang for further investigation.
 ```
 
-2. Click **Comment ➤**
-3. Click **Close Issue**
+![image](https://github.com/user-attachments/assets/570718a3-797f-41b8-b48d-1f1bfbadbd7b)
+
+✅ Click **Comment**
 
 ---
 
-## 🧠 Key Takeaways
+## 🔁 Step 4: Escalate the Ticket
 
-* 👤 Help desk users manage tickets
-* ♻️ Tickets are reassignable
-* 📜 Comments improve clarity
-* 🟢 Priority & tags help triage
-* 🧼 Always close with notes
+1. Reassign the ticket to **Jin Yang**
+2. Set **Priority** to `High`
+3. Change status tag to **In Progress** or **Escalated**
 
----
+![image](https://github.com/user-attachments/assets/248631d6-2d31-4557-b8d9-2af6e33fbeb7)
 
-# ⚠️ Peppermint Ticket Interrupt Lab: Layered Troubleshooting & Escalation
-
-Simulate a **realistic escalation** by documenting a support call to Layer 3:
-
-* 📈 Create a ticket
-* 🔍 Ask diagnostic questions
-* 🤝 Document all steps
-* 🚀 Escalate to another tech
-
----
-
-## 🔧 Scenario Summary
-
-> Monica calls: “My internet won’t work!”
-
-### Action Plan:
-
-1. Create ticket for Monica
-2. Add detailed troubleshooting notes
-3. Document Layer 1–3 OSI diagnostics
-4. Escalate to another tech (e.g., Jin Yang)
-
----
-
-### 🔍 Diagnostic Questions
-
-Ask in the comment:
-
-* What do you see in the browser?
-* Error messages?
-* Are other devices affected?
-* Have you rebooted the router?
-* Are indicator lights active?
-
----
-
-### 🔧 Layer 1–3 Troubleshooting
-
-#### Layer 1 – Physical
-
-* Check Ethernet cable
-* Confirm link light
-
-#### Layer 2 – Data Link
-
-* Data light flashing?
-
-#### Layer 3 – Network
-
-* Run `ipconfig`
-* Do they have a valid IP?
-* 169.x.x.x = DHCP issue?
-* Confirm DNS and gateway
-
----
-
-### 📋 Internal Comment Example
-
-> Walked customer through Layer 1–3. Cable good. Link and data lights on. IP = 169.x.x.x. No web access. Escalating.
-
----
-
-### ♻️ Reassign the Ticket
-
-* Assign to **Jin Yang**
-* Set **Priority** to `High`
-* Update status if needed
+![image](https://github.com/user-attachments/assets/46aa3662-cfb7-4262-9fb7-78f3cb9b2bac)
 
 ---
 
 ## 🧠 Why This Matters
 
-You demonstrate:
+By simulating real-world ticket flow:
 
-* Clear documentation
-* Technical thinking
-* Support professionalism
-* Efficient escalation
+- 🧾 You practice detailed internal documentation
+- 🧪 You show Layered troubleshooting logic
+- 🔁 You demonstrate professional hand-off techniques
+
+This ensures that **Jin Yang** or any higher-tier tech knows **exactly what’s been tried**, avoiding repetition and saving time.
 
 ---
 
 ## 🎉 Success!
 
-You now:
+You’ve now:
 
-* 🔧 Created a real-world help desk ticket
-* 📞 Simulated a user interaction
-* 🔎 Documented OSI Layer troubleshooting
-* ♻️ Escalated appropriately
-
-This is the level of quality expected in real IT, SOC, or analyst roles. 💼💡
+- 🛠️ Created a realistic tech support ticket
+- 📞 Simulated a client interaction
+- 🔎 Documented OSI Layer 1–3 troubleshooting
+- 🔁 Reassigned and escalated the ticket professionally
